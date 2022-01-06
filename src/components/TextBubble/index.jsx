@@ -7,7 +7,7 @@ function TextBubble(props) {
   return (
     <>
       <div className={[CSS.TextBubble, props.right ? CSS.Right : CSS.Left].join(' ')}>
-        <span className={CSS.Msg}>{props.message}</span>
+        <span className={CSS.Msg}>{props.message.length<5 ?<span>{props.message} &nbsp;&nbsp;&nbsp;&nbsp;</span>:props.message}</span>
         <span className={CSS.Time}>{getTime(props.time)}</span>
       </div>
       <br />
