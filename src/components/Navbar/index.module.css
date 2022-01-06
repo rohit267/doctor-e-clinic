@@ -1,0 +1,22 @@
+.Header {
+  background-color: darkcyan !important;
+  color: #fff !important;
+  padding: 8px 32px;
+  height: auto;
+  padding-left: 2% !important;
+  display: flex;
+  border-bottom: solid 1px #e7e7e7;
+}
+.Header a {
+    color: #fff;
+    text-decoration: none;
+}
+.Header a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.LogoText {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}

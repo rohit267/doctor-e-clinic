@@ -1,0 +1,16 @@
+.Sidebar {
+  border-right: 1px solid #e7e7e7;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow-y: auto;
+}
+.NewChat {
+  background-color: darkcyan !important;
+  color: white;
+  border: none;
+  padding: 16px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}

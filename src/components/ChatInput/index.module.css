@@ -1,0 +1,64 @@
+.ChatInputWrapper {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #e7e7e7;
+  width: 98.5%;
+  background-color: white;
+  position: relative;
+}
+.ChatInput {
+  width: 90%;
+  height: 55px;
+  margin: 8px 16px;
+  box-sizing: border-box;
+  border-radius: 42px;
+  border: 1px solid #e7e7e7;
+  padding-left: 16px;
+  font-size: 16px;
+  outline: none;
+}
+.ChatInput:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 42px;
+  border: 1px solid #e7e7e7;
+  padding-left: 16px;
+  font-size: 16px;
+}
+.SendIcon {
+  cursor: pointer;
+  color: darkcyan;
+  position: relative;
+  top: 20px;
+  right: 16px;
+}
+.ChatAttachment {
+  cursor: pointer;
+  color: darkcyan;
+  position: relative;
+  top: 20px;
+  right: 74px;
+}
+.AttachWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  bottom: 76px;
+  padding: 8px;
+  border-radius: 8px;
+  right: 8px;
+  border: 1px solid #e7e7e7;
+  text-align: center;
+  color: darkcyan;
+}
+.AttachIcon{
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Dr Dummy One",
+    "messages": [
+      {
+        "timestamp": 1606666068,
+        "msg": "Some dummy message",
+        "type": "text",
+        "sentBy": "user",
+        "read": true
+      },
+      {
+        "timestamp": 1097190761,
+        "state": "ended",
+        "type": "video",
+        "sentBy": "doctor",
+        "read": true
+      }
+      ,
+      {
+        "timestamp": 1097190761,
+        "state": "missed",
+        "type": "audio",
+        "sentBy": "user",
+        "read": true
+      }
+    ]
+  },
+  {
+    "name": "Dr Dummy two",
+    "messages": [
+      {
+        "timestamp": 1291462275,
+        "msg": "Some dummy message",
+        "type": "audio",
+        "sentBy": "user",
+        "state": "missed",
+        "read": true
+      },
+      {
+        "timestamp": 1291462275,
+        "msg": "Some dummy message",
+        "type": "text",
+        "sentBy": "user",
+        "read": false
+      }
+    ]
+  }
+]

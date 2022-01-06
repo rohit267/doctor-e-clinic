@@ -1,0 +1,4 @@
+.ChatScreen {
+  /* flex-flow: column; */
+  height: calc(100vh - 81px);
+}

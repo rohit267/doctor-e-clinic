@@ -1,0 +1,22 @@
+.ChatHeader {
+    position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  box-sizing: border-box;
+  box-shadow: grey 0px 0px 5px;
+}
+.VoiceVideo {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    color: darkcyan;
+}
+.ChatName{
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+.Pointer{
+    cursor: pointer;
+}
