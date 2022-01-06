@@ -13,7 +13,7 @@ function index(props) {
         </div>
         <div className="text-center pt-2">
           <div className={[CSS.LastMsgTime, props.data === 'Today' ? CSS.Unread : ''].join(' ')}>{props.data}</div>
-          <span className={[CSS.NumberOfMsg, props.data !== 'Today' ? 'd-none' : 'd-inline-block'].join(' ')}>3</span>
+          <span className={[CSS.NumberOfMsg, props.data !== 'Today' ? 'd-none' : 'd-inline-block'].join(' ')}>1</span>
         </div>
       </div>
     </div>
